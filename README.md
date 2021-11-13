@@ -1,4 +1,4 @@
-# urlshortener
+# Food APP
 
 ## Project setup
 ```
