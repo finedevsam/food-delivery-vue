@@ -51,6 +51,54 @@
     </div>
   </div>
 </div>
+<section class="explore">
+  <div class="explore-title">
+    <h3>Explore varieties</h3>
+  </div>
+  <div class="explore-title-2">
+    <h3>Shop for your favorites meal as e dey hot.</h3>
+  </div>
+  <div class="explore-title-3">
+    <h4>Shop for your favorite meals or drinks and enjoy while doing it.</h4>
+  </div>
+  <div class="explore-image">
+    <img src="../assets/m4.svg" alt="m4" />
+  </div>
+</section>
+<section class="checkout">
+  <div class="checkout-image">
+    <img src="../assets/m5.svg" alt="m5" />
+  </div>
+  <div class="checkout-title">
+    <h3>Checkout</h3>
+  </div>
+  <div class="checkout-title-2">
+    <h2>When you done check out and get it delivered.</h2>
+  </div>
+  <div class="checkout-title-3">
+    <h4>When you done check out and get it delivered with ease.</h4>
+  </div>
+</section>
+<section class="foot">
+  <div class="foot-image">
+    <img src="../assets/m6.svg" alt="m6" />
+    <div class="foot-title">
+      <h2>Download the app now.</h2>
+    </div>
+    <div class="foot-title-1">
+      <h4>Available on your favorite store. Start your premium experience now</h4>
+    </div>
+    <div class="foot-button">
+      <div class="foot-button-appstore">Appstore</div>
+      <div class="foot-button-playstore">Playstore</div>
+    </div>
+  </div>
+</section>
+<section class="footer">
+  <div class="footer-logo">
+    <img src="../assets/logo.svg" alt="Footer-Logo" />
+  </div>
+</section>
 </template>
 
 <script>
@@ -447,5 +495,371 @@
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
+  }
+  .explore{
+    position: absolute;
+    width: 1400px;
+    height: 806.99px;
+    left: 0px;
+    top: 2202px;
+
+    background: #FFFFFF;
+  }
+  .explore-title{
+    position: absolute;
+    left: 20%;
+    right: 30%;
+    top: 40%;
+    bottom: 0%;
+
+    /* H3 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .explore-title-2{
+    position: absolute;
+    left: 13%;
+    right: 50%;
+    top: 45%;
+    bottom: 7.46%;
+
+    /* H2 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 142% */
+
+    letter-spacing: 0.2px;
+
+    /* text */
+
+    color: #252B42;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .explore-title-3{
+    position: absolute;
+    left: 13%;
+    right: 50%;
+    top: 65%;
+    bottom: 10%;
+
+    /* H4 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    letter-spacing: 0.2px;
+
+    /* second text */
+
+    color: #737373;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .explore-image{
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    left: 750px;
+    top: 78px;
+
+    /* background: url(.png); */
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+
+  }
+  .checkout{
+    position: absolute;
+    width: 1440px;
+    height: 806.99px;
+    left: 0px;
+    top: 2935px;
+
+    background: #FFFFFF;
+  }
+  .checkout-image{
+    position: absolute;
+    width: 278px;
+    height: 511px;
+    left: 245px;
+    top: 81px;
+
+    /* background: url(.png); */
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+  }
+  .checkout-title{
+    position: absolute;
+    left: 65%;
+    right: 0%;
+    top: 43%;
+    bottom: 0%;
+
+    /* H3 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .checkout-title-2{
+    position: absolute;
+    left: 50%;
+    right: 2%;
+    top: 50%;
+    bottom: 0%;
+
+    /* H2 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    /* or 142% */
+
+    letter-spacing: 0.2px;
+
+    /* text */
+
+    color: #252B42;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .checkout-title-3{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+    top: 65%;
+    bottom: 10.42%;
+
+    /* H4 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    letter-spacing: 0.2px;
+
+    /* second text */
+
+    color: #737373;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .foot {
+    position: absolute;
+    /* height: 100%;
+    margin: 0px; */
+  }
+  .foot-image{
+    position: relative;
+    width: 130px;
+    height: 500px;
+    left: -6.4%;
+    top: 3750px;
+
+    background: linear-gradient(0deg, rgba(37, 43, 66, 0.4), rgba(37, 43, 66, 0.4));
+  }
+  .foot-title{
+    position: absolute;
+    left: 400%;
+    right: -700%;
+    top: 25%;
+    bottom: 12.99%;
+
+    /* H2 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 57px;
+    /* identical to box height, or 142% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* Light text */
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .foot-title-1{
+    position: absolute;
+    left: -1.6%;
+    right: -1120%;
+    top: 35%;
+    bottom: 17.24%;
+
+    /* H4 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height, or 158% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  .foot-button{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    position: absolute;
+    left: 470%;
+    right: -40%;
+    top: 65%;
+    bottom: 50%;
+  }
+  .foot-button-appstore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 31px;
+
+    position: static;
+    width: 50px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    color: #F7F7F7;
+
+    background: #FA4A0C;
+    border-radius: 10px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+  }
+  .foot-button-playstore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 31px;
+
+    position: static;
+    width: 50px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    color: #F7F7F7;
+
+    /* background: #FA4A0C; */
+    border-radius: 10px;
+    border-style: solid;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+  }
+  .footer{
+    position: absolute;
+    width: 1210px;
+    height: 133px;
+    left: 115px;
+    top: 4270px;
+
+
+    background: #FFFFFF;
+  }
+  .footer-logo{
+    position: absolute;
+    width: 246px;
+    height: 102px;
+    left: -20.5px;
+    top: 2px;
+
+    /* background: url(.png); */
   }
 </style>
